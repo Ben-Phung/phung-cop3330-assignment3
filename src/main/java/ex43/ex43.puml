@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ArrayList {
+    +String site;
+    +String author;
+    +char jScript;
+    +char css;
+    +void main
+    +void prompt
+    ~Scanner siteInput
+    ~Scanner authorInput
+    ~Scanner jsInput
+    ~Scanner cssInput
+    +void directories
+    ~char jFolder
+    ~char cFolder
+    ~File file3
+    ~File file4
+    +void indexHTML
+    ~String path
+    +void print
+}
+
+
+@enduml

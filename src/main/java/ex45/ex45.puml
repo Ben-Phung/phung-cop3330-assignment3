@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ex45 {
+    +void main
+    +String prompt
+    ~Scanner scan
+    +void outFile
+    ~String fileName
+    ~File inputFile
+    ~FileWriter writeOut
+    ~String words
+
+}
+
+
+@enduml
